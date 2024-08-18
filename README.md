@@ -1,31 +1,64 @@
+# Online Shopping System
 
-# Problem Statement
+The Online Shopping System is a Java-based project designed to provide a comprehensive online shopping experience. This application includes features such as product browsing, cart management, and multiple payment methods. It incorporates fundamental Java concepts like classes, inheritance, arrays, and exception handling.
 
-This project is a program which is created using Java for online shopping. All the aspects of online shopping such as the login page for customers  through this website. Using this website they can also choose  from different categories   and the  website  also   checks  the availability of  the  products  at  that  moment. They can also add and remove more than one product from the cart and after they done with their shopping that can pay in different methods like online or cash on delivery. For both methods required information’s are taken from the customers.
+## Project Overview
 
-# The project allows users to use the following features:
-•	Product Catalogue
+The Online Shopping System allows users to:
 
-•	Shopping Cart
+- **Browse Product Catalogue:** View available products categorized for easy navigation.
+- **Manage Shopping Cart:** Add or remove products from the cart.
+- **Check Product Availability:** Ensure the products are in stock before making a purchase.
+- **Account Management:** Handle user accounts and login details.
+- **Payment Methods:** Choose from online payments or cash on delivery.
+- **Print Slip:** Generate and print a receipt for the transaction.
+- **Terminate Process:** Safely end the session and clear any temporary data.
 
-•	Account Management 
+## Features
 
-•	Product Availability
+- **Product Catalogue:** Display a list of products organized by category.
+- **Shopping Cart:** Add/remove items and view current cart contents.
+- **Account Management:** User login and account management functionalities.
+- **Product Availability:** Check real-time stock availability.
+- **Print Slip:** Print transaction slips for completed purchases.
+- **Payment Methods:** Support for online payments and cash on delivery.
+- **Exception Handling:** Manage both user-defined and non-user-defined exceptions.
 
-•	Print Slip
+## Functionality
 
-•	Different Payment Methods
+- **User Input:** Collect user information for account management, product selection, and payment processing.
+- **Classes and Objects:** Utilize Java classes to model various components of the shopping system.
+- **Inheritance:** Apply inheritance to create a hierarchy of related classes.
+- **Arrays and ArrayList:** Use arrays and ArrayLists to manage collections of products and cart items.
+- **Exception Handling:** Implement robust error handling to manage both expected and unexpected issues.
 
-•	Terminating process
+## Code Structure
 
-# Methods used in the project:
+- **`Availability.java`**: Manages product availability and stock checking.
+- **`Customer.java`**: Handles customer account details and login functionality.
+- **`Item.java`**: Represents individual products in the catalogue.
+- **`Item_Add_Drop.java`**: Manages the addition and removal of items from the shopping cart.
+- **`Mainbody.java`**: Contains the main logic for interacting with users and driving the application.
+- **`Quantity.java`**: Handles the quantity management of items in the cart.
 
-•	Classes and Objects
+## Usage
 
-•	Inheritance
+### Adding/Removing Items
+- **Add Items:** Select products from the catalogue and add them to the cart.
+- **Remove Items:** Remove items from the cart as needed.
 
-•	Array
+### Checking Availability
+- **Product Check:** Verify if a product is available before purchasing.
 
-•	ArrayList
+### Making Payments
+- **Online Payment:** Provide payment details for online transactions.
+- **Cash on Delivery:** Choose to pay in cash upon delivery.
 
-•	Exception Handling (User defined and non-User defined)
+### Generating Slips
+- **Print Receipt:** Print a slip for the transaction to keep a record.
+
+## Technologies Used
+
+- **Programming Language:** Java
+- **Data Structures:** Arrays, ArrayList
+- **Exception Handling:** User-defined and non-user-defined exceptions
