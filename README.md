@@ -76,12 +76,6 @@ The Online Shopping System allows users to:
 - **Print Receipt**: After completing the purchase, print a transaction receipt for your records.
 
 
-
-## 🛠 **Installation & Setup**
-
-Sure! Here's the formatted section you can directly copy-paste into your GitHub README file:
-
-
 ## 🛠 **Installation & Setup**
 
 1️⃣ **Clone the Repository**
@@ -112,4 +106,3 @@ java Mainbody
 - ✅ **Transaction Receipt Generation**: Automatic printing of receipts after purchase.
 - ✅ **Robust Exception Handling**: Effective error management for smooth operation.
 - ✅ **Efficient Data Structures**: Optimized use of arrays and ArrayLists for storing products and cart items.
-```
